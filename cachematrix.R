@@ -1,5 +1,4 @@
 ## The first function make the Matrix and the second cache the value of inverse
-## 
 ## For example, you can make the Matrix 
 ## m <- makeCacheMatrix(matrix(1:4,2,2)) 
 ## and then get the catch of the inverse
