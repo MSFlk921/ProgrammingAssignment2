@@ -1,7 +1,7 @@
 ## The first function make the Matrix and the second cache the value of inverse
 ## 
 ## For example, you can make the Matrix 
-## m <- makeMatrix(matrix(1:4,2,2)) 
+## m <- makeCacheMatrix(matrix(1:4,2,2)) 
 ## and then get the catch of the inverse
 ## cacheSolve(m)    
 ##      [,1] [,2]
@@ -12,7 +12,7 @@
 
 ## This functon create the Matrix and you can set the value of it
 
-makeMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = numeric()) {
   m<-NULL
   set<-function(y){
     x<<-y
